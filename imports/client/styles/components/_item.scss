@@ -1,0 +1,33 @@
+.item {
+  background: $white;
+  border: 1px solid #e8e8e8;
+  margin-bottom: $generic-space;
+  padding: $generic-space;
+  @include rounded;
+  box-shadow: 0 0 2px #636363;
+
+  &__message {
+    font-size: $generic-space;
+    font-style: italic;
+    font-weight: $font-weight-normal;
+    text-align: center;
+  }
+
+  &--position-1 {
+    background: $first-place;
+    border: 1px solid $first-place-dark;
+    box-shadow: 0 0 2px $first-place-darker;
+  }
+
+  &--position-2 {
+    background: $second-place;
+    border: 1px solid $second-place-dark;
+    box-shadow: 0 0 2px $second-place-darker;
+  }
+
+  &--position-3 {
+    background: $third-place;
+    border: 1px solid $third-place-dark;
+    box-shadow: 0 0 2px $third-place-darker;
+  }
+}

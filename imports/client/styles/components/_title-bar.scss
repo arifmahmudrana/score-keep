@@ -1,0 +1,9 @@
+.title-bar {
+  background: #e35557;
+  color: $white;
+
+  &__subtitle {
+    font-size: $generic-space;
+    font-weight: 400;
+  }
+}

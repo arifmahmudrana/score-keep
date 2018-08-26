@@ -1,0 +1,20 @@
+.player {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  &__name {
+    font-weight: $font-weight-normal;
+    font-size: 1.8rem;
+  }
+
+  &__stats {
+    font-weight: $font-weight-normal;
+    font-size: $generic-space;
+    font-style: italic;
+  }
+
+  &__actions {
+    flex-shrink: 0;
+  }
+}
